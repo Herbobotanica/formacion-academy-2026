@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es-AR">
 <head>
@@ -429,6 +430,23 @@
     .cta-btn{font-size:1rem;padding:16px 32px;}
   }
 </style>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1504389418141575');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1504389418141575&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 </head>
 <body>
 
@@ -454,7 +472,7 @@
       </div>
       <div class="price-note">Precio en pesos argentinos · Pago único o en cuotas</div>
     </div>
-    <a href="https://mpago.li/2gbV6ei" target="_blank" rel="noopener" class="cta-btn">Quiero mi lugar 🐾</a>
+    <a href="https://mpago.li/2gbV6ei" target="_blank" rel="noopener" class="cta-btn" onclick="fbq('track', 'InitiateCheckout')">Quiero mi lugar 🐾</a>
     <div class="cta-sub">Pago 100% seguro con MercadoPago</div>
   </div>
 </section>
@@ -499,7 +517,7 @@
 <!-- ===== CTA media ===== -->
 <div class="cta-band">
   <h3>¿Querés acompañar emocionalmente a los animales que tenés cerca? 🐾</h3>
-  <a href="https://mpago.li/2gbV6ei" target="_blank" rel="noopener" class="cta-btn">Reservar mi lugar ahora</a>
+  <a href="https://mpago.li/2gbV6ei" target="_blank" rel="noopener" class="cta-btn" onclick="fbq('track', 'InitiateCheckout')">Reservar mi lugar ahora</a>
 </div>
 
 <!-- ===== Cronograma ===== -->
@@ -575,7 +593,7 @@
       <span class="price-old">$350.000</span>
       <span class="price-new">$315.000</span>
     </div>
-    <a href="https://mpago.li/2gbV6ei" target="_blank" rel="noopener" class="cta-btn">Comprar ahora con MercadoPago</a>
+    <a href="https://mpago.li/2gbV6ei" target="_blank" rel="noopener" class="cta-btn" onclick="fbq('track', 'InitiateCheckout')">Comprar ahora con MercadoPago</a>
     <p class="cta-sub">
       Tarjetas de crédito, tarjetas de débito, efectivo o 6 cuotas sin interés.<br>
       ¿Dudas con el pago? <a href="https://wa.me/5491173633708?text=Hola%21%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20HERBO%20ACADEMY" target="_blank" rel="noopener" style="color:var(--amarillo);font-weight:700;">Escribinos por WhatsApp</a>
@@ -603,7 +621,7 @@
     $315.000
     <span>6 cuotas sin interés</span>
   </div>
-  <a href="https://mpago.li/2gbV6ei" target="_blank" rel="noopener" class="cta-btn">Comprar</a>
+  <a href="https://mpago.li/2gbV6ei" target="_blank" rel="noopener" class="cta-btn" onclick="fbq('track', 'InitiateCheckout')">Comprar</a>
 </div>
 
 </body>
